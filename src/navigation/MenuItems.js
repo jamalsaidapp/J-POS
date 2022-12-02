@@ -11,7 +11,7 @@ export default [
   },
   {
     title: 'Formulaires',
-    icon: 'description',
+    icon: 'assignment',
     to: '/forms'
   },
   {

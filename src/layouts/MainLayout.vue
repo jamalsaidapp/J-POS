@@ -26,9 +26,9 @@
       show-if-above
       bordered
     >
-      <q-img class="absolute-top" src="https://images.unsplash.com/photo-1588421357574-87938a86fa28?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" style="height: 100px">
-        <div class="flex flex-center bg-transparent">
-          <q-avatar size="70px">
+      <q-img class="absolute-top" src="https://images.unsplash.com/photo-1588421357574-87938a86fa28?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" style="height: 50px">
+        <div class="flex flex-center bg-transparent p-1">
+          <q-avatar size="40px">
             <img src="https://cdn.quasar.dev/img/boy-avatar.png" alt="">
           </q-avatar>
           <div class="q-ml-md" style="display: grid">
@@ -37,7 +37,7 @@
           </div>
         </div>
       </q-img>
-      <q-scroll-area style="height: calc(100% - 100px); margin-top: 100px; border-right: 1px solid #ddd">
+      <q-scroll-area style="height: calc(100% - 50px); margin-top: 50px; border-right: 1px solid #ddd">
         <q-list padding>
           <q-item :to="item.to" exact clickable v-ripple v-for="(item, index) of NavigationList" :key="index">
             <q-item-section avatar>
